@@ -5,3 +5,13 @@
     padding: 2rem;
     width: 100%;
   }
+
+  @media (max-width: 768px) {
+    .cards-container {
+      grid-template-columns: 1fr;
+      padding: 1rem;
+      width: 50%;
+      margin: auto;
+
+    }
+  }

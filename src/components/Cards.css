@@ -4,6 +4,7 @@
   overflow: hidden;
   box-shadow: 0 5px 15px rgba(0, 0, 0, 0.05);
   transition: transform 0.3s;
+  border-radius: 10px;
 }
 
 .card:hover {
@@ -24,16 +25,17 @@
 }
 
 .card-body h2 {
-  font-size: 1.2rem;
+  /* font-size: 1.2rem; */
   width: 100%;
   text-align: center;
   background-color: rgb(220, 213, 213);
   border-radius: 10px;
+;
 }
 
 .card-body p {
   font-size: 0.95rem;
-  margin-bottom: 12px;
+  margin-bottom: 1em;
   color: #555;
 }
 
